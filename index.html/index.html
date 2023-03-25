@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>serch box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+
+    <script src="scrift.js"></script>
+    <div class="hero">
+        <div id="serchBox">
+            <img src="google - Copy.png" id="googleIcon">
+            <input type="text" placeholder="Serch google or type a URL">
+            <img src="microphone.png" class="mic-icon">
+
+            <script>
+                var serchBox = document.getElementById("serchBox")
+                var googleIcon = document.getElementById("googleIcon")
+                googleIcon.onclick = function(){
+                serchBox.classList.toggle("active");
+                }
+            </script>
+
+        </div>
+    </div>
+</body>
+</html>
